@@ -25,7 +25,7 @@ enOddOrEven CheckOddOrEven(int number)
 }
 
 
-int printSumOfOddNumsFrom1ToN(int N)
+int CalctSumOfOddNumsFrom1ToN(int N)
 {
     int sum = 0;
 
@@ -41,7 +41,7 @@ int printSumOfOddNumsFrom1ToN(int N)
 
 int main()
 {
-   cout << printSumOfOddNumsFrom1ToN(readNum());
+   cout << CalctSumOfOddNumsFrom1ToN(readNum());
      
 }
 
