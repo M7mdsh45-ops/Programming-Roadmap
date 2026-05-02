@@ -29,7 +29,7 @@ int CalctSumOfOddNumsFrom1ToN(int N)
 {
     int sum = 0;
 
-    cout << " The sum of odd number in range = ";
+    cout << " The sum of odd numbers in range = ";
     for (int counter = 1; counter <= N; counter++)
     {
         if (CheckOddOrEven(counter) == enOddOrEven::odd)
