@@ -44,7 +44,7 @@ int main()
 {
 	
 	
-	printInvertedNumberPattern(readNum(" enter a num : "));
+	printInvertedLetterPattern(readNum(" enter a num : "));
 
 
 }
