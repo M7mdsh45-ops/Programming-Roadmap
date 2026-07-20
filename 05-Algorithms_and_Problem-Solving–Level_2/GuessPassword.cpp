@@ -9,7 +9,7 @@ string readPassword()
 {
 
 	string password;
-	cout << " Enter a Password : \n ";
+	cout <<  "Please enter a 3-Letter Password (all capital) : \n";
 	cin >> password;
 	return password;
 }
