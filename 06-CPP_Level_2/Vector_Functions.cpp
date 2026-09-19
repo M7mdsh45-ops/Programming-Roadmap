@@ -23,7 +23,9 @@ int main()
     // Returns the number of elements currently present in the vector
     cout << "Size: " << vNumbers.size() << endl;
 
-    // Returns the total number of elements that the vector can hold before needing to allocate more memory
+    // Returns the total capacity (allocated memory space) of the vector.
+    // Note: Capacity (e.g., 6) is often greater than Size (5) because the vector 
+    // pre-allocates extra memory to avoid reallocating memory every time a new element is added.
     cout << "Capacity : " << vNumbers.capacity() << endl;
 
     // Returns 1 (true) if the vector is empty, or 0 (false) if it contains elements
