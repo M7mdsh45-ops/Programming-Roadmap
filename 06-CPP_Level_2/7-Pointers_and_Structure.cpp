@@ -28,5 +28,6 @@ int main()
 	cout << "Name : " << ptr->name << endl; //(*ptr).Name  == ptr->Name
 	cout << "Salary : " << ptr->salary << endl;
 
-	
+    // To Print Address :
+	cout << "Name : " << &ptr->name << endl;
 }
